@@ -45,8 +45,6 @@ This piece of work is also part of our technical series [angular-vietnam/100-day
 
 ## Tech stack
 
-![Tech logos][stack]
-
 - [Angular CLI][cli]
 - [Akita][akita] state management
 - [NestJS][nestjs]
@@ -177,8 +175,8 @@ Not all components have properly defined [aria attributes](https://developer.moz
 
 ## Setting up development environment 🛠
 
-- `git clone https://github.com/trungk18/jira-clone-angular.git`
-- `cd jira-clone-angular`
+- `git clone https://github.com/gru-lucy/angular-jira-clone.git`
+- `cd angular-jira-clone`
 - `npm start` for angular web application
 - The app should run on `http://localhost:4200/`
 
@@ -189,18 +187,6 @@ I skipped writing test for this project. I might do it for the proper backend Gr
 ## Compatibility
 
 It was being tested on IE 11, Chrome and Firefox. For Safari, there are some minor alignment issues.
-
-## Contributing
-
-If you have any ideas, just [open an issue][issues] and tell me what you think.
-
-If you'd like to contribute, please fork the repository and make changes as you'd like. [Pull requests][pull] are warmly welcome.
-
-## Credits
-
-Inspired by [oldboyxx/jira_clone][oldboyxx] and [Datlyfe/jira_clone][datlyfe].
-
-I reused part of the HTML and CSS code from these projects.
 
 ## License
 
