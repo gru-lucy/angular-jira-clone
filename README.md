@@ -10,16 +10,6 @@ There have been a handful of cool Jira-cloned apps written in `React`/`VueJS`, w
 
 This is not only a simplified Jira clone built with Angular, but also an example of a **modern**, **real-world** Angular codebase.
 
-## Merry Christmas
-
-Thank you for your support! -> https://jira.trungk18.com/project/issue/2020
-
-![Jira clone built with Angular and Akita][christmas2020]
-
-## Working application
-
-Check out the **live demo** -> https://jira.trungk18.com
-
 ![Jira clone built with Angular and Akita][demo]
 
 ## Storybook
@@ -31,7 +21,7 @@ That makes it easy to develop hard-to-reach states. Save these UI states as **st
 
 ### Jira Clone Storybook
 
-This is the collection of components that I wrote for [jira.trungk18.com][jira], includes:
+This is the collection of components that I wrote, includes:
 
 - Avatar
 - Breadcrumbs
@@ -39,21 +29,6 @@ This is the collection of components that I wrote for [jira.trungk18.com][jira],
 - Input
 - More to come...
 
-Check out the **storybook demo** -> https://jira-storybook.trungk18.com/
-
-![Jira clone built with Angular and Akita][demo-storybook]
-
-## Support
-
-If you like my work, feel free to:
-
-- ⭐ this repository. And we will be happy together :)
-- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about Angular Jira clone
-- <a title="Thanks for your support!" href="https://www.buymeacoffee.com/trungvose" target="_blank"><img src="https://res.cloudinary.com/dvujyxh7e/image/upload/c_thumb,w_140,g_face/v1596378474/default-orange_uthxgz.jpg" alt="Buy Me A Coffee"></a>
-
-Thanks a bunch for stopping by and supporting me!
-
-[tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Ftrungk18%2Fjira-clone-angular&text=Awesome%20Jira%20clone%20app%20built%20with%20Angular%209%20and%20Akita&hashtags=angular,akita,typescript
 ## Who is it for 🤷‍♀️
 
 I have been working with Angular for about four years. I built cool stuff at [Zyllem][zyllem] but almost all of them are internal apps which is difficult to show.
@@ -142,23 +117,6 @@ While working with this application, I have the opportunity to revisit some of t
 - Scrollable layout with Flexbox
 - Deploy Angular application to Netlify
 
-I will take two weeks break to:
-
-- Fix bugs and UI enhancements for Angular Jira clone.
-- Continue working with the [typescript-data-structures][typescript-dsa] repo.
-
-[typescript-dsa]: https://github.com/trungk18/typescript-data-structures
-
-### Phase 2
-
-> TBD
-
-- [ ] Refactor the mono repo to use Nx Workspace
-- [ ] GraphQL API and store data on the actual database
-- [ ] Authentication
-
-View the current [work in progress branch][gql]
-
 ## Tutorial
 
 When I look at the application, it is huge. When the task is huge, you usually don't know where and how to start working with them. I started to break the big task into a [simple to-do list on notion][todo-list]. Once I know what needs to be done, what I need is to follow the plan. That's my approach.
@@ -194,7 +152,6 @@ Its series will also be published in Vietnamese as part of our [angular-vietnam/
 [part06]: https://trungk18.com/experience/angular-jira-clone-tutorial-06-angular-markdown-text-editor/
 [part07]: https://trungk18.com/experience/angular-jira-clone-tutorial-07-rich-text-editor/
 [part08]: https://trungk18.com/experience/angular-jira-clone-tutorial-08-angular-placeholder-loading/
-[todo-list]: https://www.notion.so/trungk18/Tasks-636be5c5c0dd4d8cab30808e4e41facc
 
 ## Time spending
 
@@ -254,22 +211,21 @@ Feel free to use my code on your project. It would be great if you put a referen
 [jira]: http://jira.trungk18.com/
 [oldboyxx]: https://github.com/oldboyxx/jira_clone
 [datlyfe]: https://github.com/Datlyfe/jira_clone
-[stack]: src/assets/img/jira-clone-tech-stack.png
-[demo]: src/assets/img/jira-clone-angular-demo-trungk18.gif
-[christmas2020]: src/assets/img/merry-christmas-2020.gif
-[demo-storybook]: src/assets/img/jira-storybook.gif
-[time]: src/assets/img/time-spending.png
+[stack]: ./src/assets/img/jira-clone-tech-stack.png
+[demo]: ./src/assets/img/jira-clone-angular-demo-trungk18.gif
+[christmas2020]: ./src/assets/img/merry-christmas-2020.gif
+[demo-storybook]: ./src/assets/img/jira-storybook.gif
+[time]: ./src/assets/img/time-spending.png
 [issues]: https://github.com/trungk18/jira-clone-angular/issues/new
 [pull]: https://github.com/trungk18/jira-clone-angular/compare
 [100days]: https://github.com/angular-vietnam/100-days-of-angular
 [stranger]: https://www.bingeclock.com/s/stranger-things/
 [eric_cart]: https://www.reddit.com/r/Angular2/comments/hj4kxd/angular_jira_clone_application_built_akita_and/fwu1tbm/
-[application-architecture]: src/assets/img/diagram/application-architecture.png
-[interaction-data-flow]: src/assets/img/diagram/interaction-data-flow.png
-[project-store]: src/app/project/state/project/project.store.ts
-[project-service]: src/app/project/state/project/project.service.ts
-[project-query]: src/app/project/state/project/project.query.ts
+[application-architecture]: ./src/assets/img/diagram/application-architecture.png
+[interaction-data-flow]: ./src/assets/img/diagram/interaction-data-flow.png
+[project-store]: ./src/app/project/state/project/project.store.ts
+[project-service]: ./src/app/project/state/project/project.service.ts
+[project-query]: ./src/app/project/state/project/project.query.ts
 [lazy-load]: https://angular.io/guide/lazy-loading-ngmodules
 [chau]: https://github.com/nartc
 [tiep]: https://github.com/tieppt
-[gql]: https://github.com/trungk18/jira-clone-angular/tree/feature/gql
